@@ -21,7 +21,7 @@ function drawGame() {
     const zuckerbergElement = document.createElement("div");
     zuckerbergElement.style.width = `${ZUCKERBERG_SIZE}px`;
     zuckerbergElement.style.height = `${ZUCKERBERG_SIZE}px`;
-    zuckerbergElement.style.backgroundImage = "url('https://via.placeholder.com/30')";
+    zuckerbergElement.style.backgroundImage = "url('https://img.fruugo.com/product/4/44/182762444_max.jpg')";
     zuckerbergElement.style.position = "absolute";
     zuckerbergElement.style.top = `${zuckerbergY}px`;
     zuckerbergElement.style.left = `${zuckerbergX}px`;
@@ -32,7 +32,7 @@ function drawGame() {
         const openAIElement = document.createElement("div");
         openAIElement.style.width = `${OPENAI_LOGO_SIZE}px`;
         openAIElement.style.height = `${OPENAI_LOGO_SIZE}px`;
-        openAIElement.style.backgroundImage = "url('https://via.placeholder.com/20')";
+        openAIElement.style.backgroundImage = "url('https://static-00.iconduck.com/assets.00/openai-icon-2021x2048-4rpe5x7n.png')";
         openAIElement.style.position = "absolute";
         openAIElement.style.top = `${openAILogos[i].y}px`;
         openAIElement.style.left = `${openAILogos[i].x}px`;
@@ -43,7 +43,7 @@ function drawGame() {
     const elonMuskElement = document.createElement("div");
     elonMuskElement.style.width = `${ELON_MUSK_SIZE}px`;
     elonMuskElement.style.height = `${ELON_MUSK_SIZE}px`;
-    elonMuskElement.style.backgroundImage = "url('https://via.placeholder.com/40')";
+    elonMuskElement.style.backgroundImage = "url('https://p7.hiclipart.com/preview/124/1020/1006/elon-musk-tesla-motors-chief-executive-falcon-heavy-business-business.jpg')";
     elonMuskElement.style.position = "absolute";
     elonMuskElement.style.top = `${elonMuskY}px`;
     elonMuskElement.style.left = `${elonMuskX}px`;
